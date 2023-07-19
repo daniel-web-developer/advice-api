@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+body {
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+}
+
 html {
   box-sizing: border-box;
   font-size: 100%;
@@ -11,9 +17,9 @@ html {
 body {
   margin: 0;
   padding: 0;
-  height: 100vh;
-  width: 100vw;
-  background-color: var(--white);
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: var(--db);
 }
 
 .flex {
@@ -33,4 +39,22 @@ body {
 }
 .flex-dir-col-rev {
   flex-direction: column-reverse;
+}
+
+:root {
+  --cyan: hsl(193, 38%, 86%);
+  --green: hsl(150, 100%, 66%);
+  --gb: hsl(217, 19%, 38%);
+  --dgb: hsl(217, 19%, 24%);
+  --db: hsl(218, 23%, 16%);
+}
+
+.home {
+  min-height: 100vh;
+}
+.home-block {
+  height: 335px;
+  width: 540px;
+  background-color: var(--dgb);
+  border-radius: 20px;
 }/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,11 @@
+.home{
+    min-height: 100vh;
+
+    &-block{
+        height: 335px;
+        width: 540px;
+        background-color: var(--dgb);
+
+        border-radius: 20px;
+    }
+}
