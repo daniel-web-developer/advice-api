@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Manrope", sans-serif;
   font-weight: 800;
@@ -57,4 +62,75 @@ body {
   width: 540px;
   background-color: var(--dgb);
   border-radius: 20px;
+}
+.home-number {
+  padding-top: 50px;
+  padding-bottom: 35px;
+  color: var(--green);
+  letter-spacing: 5px;
+  font-size: 14px;
+}
+.home-advice {
+  font-size: 24px;
+  color: var(--cyan);
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+}
+.home-divider {
+  height: auto;
+  width: auto;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.home-button {
+  position: fixed;
+  top: calc(50vh - 32.5px + 167.5px);
+  left: calc(50vw - 32.5px);
+  height: 65px;
+  width: 65px;
+  border: none;
+  border-radius: 100%;
+  background-color: var(--green);
+  cursor: pointer;
+  transition: all 150ms ease-in-out;
+}
+.home-button:hover {
+  box-shadow: 0px 0px 50px 2px var(--green);
+}
+.home-button:active {
+  box-shadow: 0px 0px 50px 2px var(--green);
+}
+.home-button-image {
+  height: auto;
+  width: auto;
+}
+
+@media screen and (max-width: 610px) {
+  .home-block {
+    height: 315px;
+    width: 350px;
+  }
+  .home-number {
+    padding-top: 25px;
+    padding-bottom: 20px;
+    color: var(--green);
+    letter-spacing: 3px;
+    font-size: 12px;
+  }
+  .home-divider {
+    padding-top: 25px;
+    padding-bottom: 30px;
+  }
+  .home-button {
+    top: calc(50vh - 32.5px + 157.5px);
+  }
+  .mobile {
+    display: none;
+  }
+}
+@media screen and (min-width: 611px) {
+  .desktop {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
