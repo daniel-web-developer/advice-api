@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-
+![image](https://github.com/daniel-web-developer/nextjs-advice-api/assets/107224353/2b1976c3-1474-4d36-9092-bd0b1f6d82ae)
 
 ### Links
 
