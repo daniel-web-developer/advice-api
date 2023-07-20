@@ -37,7 +37,8 @@ Users should be able to:
 
 ### Built with
 
-- HTML
+- Next.js
+- JSX
 - JavaScript
 - [Sass](https://sass-lang.com/)
 - JavaScript
@@ -46,16 +47,11 @@ Users should be able to:
 
 ### What I learned
 
-This was my first project using an API. After struggling with Next.js, I decided to go with vanilla JS. I'll try using Next.js in the next project. If you're gonna try this by yourself, remember the `cache: "no-cache"` on the `fetch()`.
-
-### Continued development
-
-Maybe I'll remake it with Next.js.
+I've learned how to fetch an API with Next.js.
 
 ### Useful resources
 
 - [MDN - Using the Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
-- [React - useState](https://react.dev/reference/react/useState)
 
 ## Author
 
