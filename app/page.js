@@ -18,7 +18,7 @@ export async function getAdvice() {
   if(data.slip.id != 203){
     adviceID.innerHTML = "ADVICE #" + (data.slip.id + 1);
     advice.innerHTML = "\"" + data.slip.advice + "\"";
-  } // To filter out an inappropriate device
+  } // To filter out an inappropriate advice
 }
 
 export default function Home() {
